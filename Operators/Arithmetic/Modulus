@@ -1,1 +1,6 @@
+<-- Modulus -->
+let x = 10;
+let y = 4;
 
+let ans = x % y;
+console.log(ans);    // 2
