@@ -1,1 +1,29 @@
+Variables: Named memory location
 
+var , let , const
+
+// Code for Variables
+var x = 10;
+console.log(x);    // Output : 10
+
+x = "Mayank";
+console.log(x);    // Output : Mayank
+
+
+// Code for Let
+let x = 10;
+if (true) {
+    let y = 20;
+    console.log(x); // Output: 10
+    console.log(y); // Output: 20
+    }
+    console.log(x); // Output: 10
+    console.log(y); // Throws ReferenceError: y is not defined
+
+
+// Code for const
+const x = 20;
+console.log(x);      // Output : 20
+
+x = 30;
+console.log(x);      // Output : Error!
