@@ -1,1 +1,51 @@
+<-- Premitive Data Types -->
+1.// Number
+let age = 22;
+let price = 99.99;
 
+console.log(typeof age); // number
+
+2.// String
+let name = "Amit";
+let role = 'Frontend Developer';
+
+console.log(typeof name); // string
+
+3.// Boolean
+let isLoggedIn = true;
+let hasJob = false;
+
+console.log(typeof isLoggedIn); // boolean
+
+4.// Undefined
+let city;
+
+console.log(city);        // undefined
+console.log(typeof city); // undefined
+
+5.// Null
+let data = null;
+
+console.log(data);        // null
+console.log(typeof data); // object ❗ (JS bug)
+
+6.// Symbol
+let id1 = Symbol("id");
+let id2 = Symbol("id");
+
+console.log(id1 === id2); // false
+
+7.// BigInt
+let bigNumber = 123456789012345678901234567890n;
+
+console.log(typeof bigNumber); // bigint
+
+
+<-- Non Premitive data Types -->
+1.// Object
+const user = {
+  name: "Amit",
+  role: "MERN Developer"
+};
+
+console.log(typeof user); // object
