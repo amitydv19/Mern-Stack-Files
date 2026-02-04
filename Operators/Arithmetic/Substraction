@@ -1,1 +1,6 @@
+<-- Substraction -->
+let number1 = 25;
+let number2 = 36;
 
+let diff = number1 - number2;
+console.log(diff);    // -11
