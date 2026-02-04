@@ -1,1 +1,6 @@
+<-- Multiplication -->
+let number1 = 25;
+let number2 = 36;
 
+let prod = number1 * number2;
+console.log(prod);    // 900
