@@ -1,1 +1,9 @@
+<-- Exponentiation -->
+let x = 5;
+let y = 5;
 
+let ans = x ** 3;
+console.log(ans);      // 125
+
+ans = x ** y;
+console.log(ans);      // 3125
