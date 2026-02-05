@@ -1,0 +1,5 @@
+let firstName = "Mayank";
+let y = 4;
+
+console.log(firstName);      // Mayank
+console.log(y);              // 4
