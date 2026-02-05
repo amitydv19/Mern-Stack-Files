@@ -1,0 +1,38 @@
+<-- For Loop -->
+for ( int i = 1; i<=10; i=i+1;
+    {
+      console.log("i")
+    }
+/*
+Output :
+1
+2
+3
+4
+5
+*/
+
+
+<-- while -->
+let sum = 0;
+let i=1;
+while(i <= 10){
+    sum = sum + i;
+    i++;
+}
+
+console.log(sum);
+
+// Output: 55
+
+<-- Do-While -->
+let sum = 0;
+let count = 1;
+do{
+    sum = sum + count;
+    count = count + 1;
+}while(count <= 10);
+
+console.log(sum);
+
+// Output : 55
