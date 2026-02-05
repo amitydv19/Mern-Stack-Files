@@ -1,0 +1,7 @@
+let num1 = 5;
+// Binary representation of 5 : 0 1 0 1
+
+let num2 = 8;
+// Binary representation of 7 : 1 0 0 0
+
+console.log(num1 | num2);         // 13
