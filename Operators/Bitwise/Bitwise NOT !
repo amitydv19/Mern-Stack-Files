@@ -1,0 +1,12 @@
+let num1 = 5;
+// Binary representation of 5 : 0 0 0 0 1 0 1
+
+let num2 = 8;
+// Binary representation of 7 : 0 0 0 1 0 0 0
+
+let num3 = -8;
+// Binary representation of -8 : 1 1 1 1 0 0 0
+
+console.log(~num1);    // -6
+console.log(~num2);    // -9
+console.log(~num3);    // 7
