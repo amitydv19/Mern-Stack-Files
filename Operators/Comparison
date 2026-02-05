@@ -1,0 +1,9 @@
+let x = "10";
+console.log(typeof(x));        // string
+
+let y = 10;
+console.log(typeof(y));         // number
+
+console.log(x == y);            // true
+
+console.log(x === y);           // false
