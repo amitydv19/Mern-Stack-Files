@@ -1,0 +1,10 @@
+// <-- Sequence of Strings -->
+
+let firstname = "Amit";
+let lastname = 'Ray';
+
+let Name = (firstname + lastname);
+console.log(Name);
+
+
+//Output: AmitRay
