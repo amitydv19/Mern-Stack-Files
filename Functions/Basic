@@ -1,0 +1,9 @@
+
+// function definition
+function sayMyName() {
+    console.log ("Amit Ray")
+}
+// Error when we run before fn call
+
+//function use - function call
+sayMyName();
