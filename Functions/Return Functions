@@ -1,0 +1,10 @@
+//return function
+function getSum(a,b,c) {
+    let sum = a+b+c;
+    return sum;
+}
+
+getSum(1,2,3);
+
+let ans = getSum(1,2,3);
+console.log("Printing Sum:", ans)
