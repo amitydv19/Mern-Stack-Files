@@ -7,7 +7,7 @@ function sayMyName() {
 
 //function use - function call
 sayMyName();
-
+// Output: Amit Ray
 
 // Function declaration
 function getMultiplication(a,b){
@@ -16,11 +16,16 @@ function getMultiplication(a,b){
 
 console.log(getMultiplication(20,10));
 
+//Output: 200
+
 // Function Expression
 
 const greet = function(name){
     return `Hello, ${name}!`;
 
 }
+console.log(greet ("John"));
+
+//Ouput: Hello, John!
 
 console.log(greet("John"));
