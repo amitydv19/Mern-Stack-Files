@@ -7,3 +7,11 @@ function sayMyName() {
 
 //function use - function call
 sayMyName();
+
+
+// Function declaration
+function getMultiplication(a,b){
+    return a*b;
+}
+
+console.log(getMultiplication(20,10));
