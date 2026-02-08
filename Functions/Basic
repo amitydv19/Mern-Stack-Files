@@ -15,3 +15,12 @@ function getMultiplication(a,b){
 }
 
 console.log(getMultiplication(20,10));
+
+// Function Expression
+
+const greet = function(name){
+    return `Hello, ${name}!`;
+
+}
+
+console.log(greet("John"));
