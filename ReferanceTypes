@@ -1,0 +1,16 @@
+// create obj
+
+let obj ={
+    name: "Amit",
+    age: "22",
+    weight:"60",
+    height:"5ft 5in",
+    greet: function(){
+      console.log("Hello Sir! How are you");
+      }
+}
+
+console.log(obj)
+obj.greet();
+
+console.log(typeof(obj))
