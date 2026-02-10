@@ -1,0 +1,67 @@
+// Create of arrays
+let arr = [1,2,3,4,5];
+
+//arr constructor
+let brr = new Array('Amit', 1,true)
+
+//Push
+brr.push('Ray')
+//Pop
+brr.pop();
+
+// Shift
+brr.shift();
+brr.unshift('Amit Ray')
+
+brr.push(20);
+brr.push(40);
+
+Slice and Splice
+// console.log(brr.slice(2,4));
+
+brr.splice(1,4, 'Kunal');
+
+console.log(brr)
+
+//Map
+
+let arr =[10,20,30];
+
+// arr.map((number,index) => {
+//     console.log(number);
+//     console.log(index);
+// })
+
+let ansArray = arr.map((number) => {
+    return number*number;
+})
+
+// console.log(ansArray)
+
+// Filter
+let arr = [10,20,30,11,21,44,51];
+
+let evenArray = arr.filter((number) => {
+    // return number%2 ===0;
+    if(number%2 ===0){
+        return true;
+    }
+    else{
+        return false;
+    }
+})
+
+console.log(evenArray)
+
+let arr = [1,2,3,4, 'Amit', 'Ray', null]
+
+let ans = arr.filter((value) => {
+    if(typeof(value) == 'string'){
+        return true;
+    }
+    else{
+        return false;
+    }
+});
+
+console.log(ans);
