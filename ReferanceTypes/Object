@@ -1,0 +1,36 @@
+// create obj
+
+let obj ={
+    name: "Amit",
+    age: "22",
+    weight:"60",
+    height:"5ft 5in",
+    greet: function(){
+      console.log("Hello Sir! How are you");
+      }
+}
+
+console.log(obj)
+obj.greet();
+
+console.log(typeof(obj))
+
+
+// Original object
+const original = {
+  name: "Amit",
+  skills: {
+    frontend: "React",
+    backend: "Node"
+  }
+};
+
+// Shallow copy using spread operator
+const shallowCopy = { ...original };
+shallowCopy.skills.frontend = "Vue"; // Original bhi change ho जाएगा!
+
+// Deep copy using structuredClone (modern approach)
+const deepCopy = structuredClone(original);
+deepCopy.skills.backend = "Django"; // Original remain "Node"!
+
+console.log(original.skills); // Check difference!
