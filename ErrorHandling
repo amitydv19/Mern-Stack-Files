@@ -1,11 +1,18 @@
 try {
   // Write code which can occurs error
-  //a
-  //b
+  console.log("try block start here");
+
+  //error -> referance error
+
+  console.log(x);
+  console.log("try block ends here");
 
 }
 catch (err){
   // Define what we do with error
   console.log("I'M HERE INSIDE BLOCK")
   console.log("Your error is here:", err);
+}
+finally{
+  console.log("I will run anytime, as i am finally block")
 }
