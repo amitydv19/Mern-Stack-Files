@@ -1,0 +1,11 @@
+try {
+  // Write code which can occurs error
+  //a
+  //b
+
+}
+catch (err){
+  // Define what we do with error
+  console.log("I'M HERE INSIDE BLOCK")
+  console.log("Your error is here:", err);
+}
