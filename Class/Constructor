@@ -1,0 +1,53 @@
+class Human{
+    //properties
+    age = 13;   //Public
+    #wt = 80;    // private bcz of #
+    ht = 180;
+
+
+    //behaviour
+
+    walking(){
+        console.log("I'm walking")
+    }
+
+    running(){
+        console.log("I'm running")
+    }
+
+}
+
+let obj = new Human();
+console.log(obj.age);
+obj.walking();
+
+// Output: 13
+          I'm walking
+
+
+
+class Human{
+    //properties
+    age = 13;   //Public
+    #wt = 80;    // private bcz of #
+    ht = 180;
+
+
+    //behaviour
+
+    walking(){
+        console.log("I'm walking", this.#wt) //We can run this inside section by this fn
+    }
+
+    running(){
+        console.log("I'm running")
+    }
+
+}
+
+let obj = new Human();
+console.log(obj.age);
+obj.walking();
+
+//Output: 13
+          I'm walking 80
