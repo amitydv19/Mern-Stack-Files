@@ -1,0 +1,5 @@
+// Variable Scoping
+
+//Global - var
+//Function - let
+// block - const
