@@ -1,0 +1,23 @@
+document.getElementById("idName")
+document.getElementsByClassName("className")
+document.getElementsByTagName("p")
+document.querySelector(".className")
+document.querySelectorAll("p")
+
+
+// Where we can Add element
+let newPara = document.createElement("p");
+newPara.innerText = "New paragraph";
+
+document.body.appendChild(newPara);
+
+// Example
+<button id="btn">Click Me</button>
+
+<script>
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", function() {
+    document.body.style.backgroundColor = "lightblue";
+});
+</script>
