@@ -33,3 +33,6 @@ element.removeEventListener(event, callbackFunction, options);
             button.removeEventListener("click", handleButtonClick);
             alert("Event listener removed!");
         }, 5000);
+
+//Phases of Events
+//Bubbling and Target
